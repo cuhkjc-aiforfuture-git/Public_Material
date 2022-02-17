@@ -1,0 +1,1688 @@
+{
+  "intents": [
+    {
+      "intent": "ask_beard",
+      "examples": [
+        {
+          "text": "do you get beard",
+          "mentions": [
+            {
+              "entity": "beard",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you have beard",
+          "mentions": [
+            {
+              "entity": "beard",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_eye_color",
+      "examples": [
+        {
+          "text": "are your eyes in black",
+          "mentions": [
+            {
+              "entity": "color",
+              "location": [
+                17,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you have black eyes",
+          "mentions": [
+            {
+              "entity": "color",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is your eye black",
+          "mentions": [
+            {
+              "entity": "color",
+              "location": [
+                12,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "is your pupil black",
+          "mentions": [
+            {
+              "entity": "color",
+              "location": [
+                14,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_gender",
+      "examples": [
+        {
+          "text": "are you a boy",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you a gentleman",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you a girl",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you a lady",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you a man",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you a woman?",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you female?",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you male?",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                8,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you mr?",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you ms",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you woman",
+          "mentions": [
+            {
+              "entity": "gender",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_glass",
+      "examples": [
+        {
+          "text": "are you farsighted",
+          "mentions": [
+            {
+              "entity": "glass",
+              "location": [
+                8,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you shortsighted",
+          "mentions": [
+            {
+              "entity": "glass",
+              "location": [
+                8,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you have glasses",
+          "mentions": [
+            {
+              "entity": "glass",
+              "location": [
+                12,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "do you wear glasses",
+          "mentions": [
+            {
+              "entity": "glass",
+              "location": [
+                12,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_hair_color",
+      "examples": [
+        {
+          "text": "do you get black hair"
+        },
+        {
+          "text": "do you have black hair"
+        },
+        {
+          "text": "do you have red hair"
+        },
+        {
+          "text": "is your hair blond"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_name",
+      "examples": [
+        {
+          "text": "are you Aaron",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Adele",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Donald",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Hayley",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Martin",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Michelle",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Monroe",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "are you Neal",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_shirt_color",
+      "examples": [
+        {
+          "text": "are you in white shirt"
+        },
+        {
+          "text": "are you wearing a green shirt"
+        },
+        {
+          "text": "do you have green shirt"
+        },
+        {
+          "text": "is your shirt in green"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_skin_color",
+      "examples": [
+        {
+          "text": "are you white"
+        },
+        {
+          "text": "do you have yellow skin"
+        },
+        {
+          "text": "is your skin in black"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "guessing_game",
+      "examples": [
+        {
+          "text": "guessing"
+        },
+        {
+          "text": "guessing game"
+        },
+        {
+          "text": "let's guess"
+        },
+        {
+          "text": "let's play the guessing game"
+        },
+        {
+          "text": "who are you in the picture"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "out_of_scope",
+      "examples": [
+        {
+          "text": "how do you"
+        },
+        {
+          "text": "what is"
+        },
+        {
+          "text": "where is"
+        },
+        {
+          "text": "why do we"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "beard",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "beard",
+          "synonyms": [
+            "true"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no beard",
+          "synonyms": [
+            "false",
+            "have no beard"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "color",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "black",
+          "synonyms": [
+            "brown",
+            "dark"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blonde",
+          "synonyms": [
+            "golden",
+            "yellow"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "green",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "red",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "white",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "glass",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "glasses",
+          "synonyms": [
+            "far sight",
+            "farsighted",
+            "short sight",
+            "shortsighted",
+            "true"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no glasses",
+          "synonyms": [
+            "false",
+            "normal sight"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good afternoon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Good evening",
+          "synonyms": [
+            "Good night"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "Hi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nice to meet you",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "guessing_game",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "guessing game",
+          "synonyms": [
+            "guess",
+            "who are you",
+            "who you are"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aaron",
+          "synonyms": [
+            "aaron"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Adele",
+          "synonyms": [
+            "adele"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Donald",
+          "synonyms": [
+            "donald"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hayley",
+          "synonyms": [
+            "hayley"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Martin",
+          "synonyms": [
+            "martin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Michelle",
+          "synonyms": [
+            "michelle"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Monroe",
+          "synonyms": [
+            "monroe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Neal",
+          "synonyms": [
+            "neal"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1640233066406",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1640157212419",
+      "context": {
+        "initChar": "<? (new java.util.Random().nextInt($some_array.size())) ?>"
+      },
+      "conditions": "$initChar",
+      "event_name": "input",
+      "dialog_node": "handler_5_1640157212442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1640157212419",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1640157212442",
+      "previous_sibling": "handler_5_1640157212442"
+    },
+    {
+      "type": "standard",
+      "title": "Initiate game",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am among these people. Can you guess who I am?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.loli.net/2021/08/24/kOB6j3ctrfNKaPn.png",
+            "alt_text": "Image of eight possible characters",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "You can ask me yes-no questions such as \"Is your hair color in black?\". I will only give \"yes\" or \"no\" as the answer. You can only get two confirmation answers from me. That means you need to make the final guess after having two confirmation answers.\n(Tips: you can ask about my beard, glasses, hair color, eye color, clothes color, skin color and gender. Good luck!)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "chosen": "<? $charArray[$initNum] ?>",
+        "questions": 0,
+        "startGame": true
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@guessing_game",
+      "dialog_node": "node_10_1640155096779",
+      "previous_sibling": "node_8_1640156433153"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, I wear <?$chosen[\"glass\"]?>."
+              },
+              {
+                "text": "No, your guess is wrong."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1640231518115",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@glass!=($chosen[\"glass\"])",
+      "dialog_node": "node_10_1640232922425",
+      "previous_sibling": "node_8_1640232576087"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, you are right!"
+              },
+              {
+                "text": "Yes, I have <?@color?> skin."
+              },
+              {
+                "text": "Right! My skin is <?@color?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1640247507164",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@color==($chosen[\"skin_color\"])",
+      "dialog_node": "node_10_1640248066361"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wrong guess. I am not a <? @gender ?>."
+              },
+              {
+                "text": "No, you are wrong :("
+              },
+              {
+                "text": "Sorry, wrong guess... I am not a <? @gender ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1640163232793",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@gender!=($chosen[\"gender\"])",
+      "dialog_node": "node_1_1640231831713",
+      "previous_sibling": "node_6_1640231535565"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, your guess about beard is wrong."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1640232572599",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@beard!=($chosen[\"beard\"])",
+      "dialog_node": "node_1_1640247228186",
+      "previous_sibling": "node_2_1640247225197"
+    },
+    {
+      "type": "standard",
+      "title": "Ask beard",
+      "parent": "node_4_1640163215999",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_beard",
+      "dialog_node": "node_2_1640232572599",
+      "previous_sibling": "node_3_1640231518115"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, I have <? @beard ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1640232572599",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@beard==($chosen[\"beard\"])",
+      "dialog_node": "node_2_1640247225197"
+    },
+    {
+      "type": "standard",
+      "title": "Ask hair color",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640163215999",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_hair_color",
+      "dialog_node": "node_2_1640247534054",
+      "previous_sibling": "node_9_1640247507164"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1640163215999",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_glass",
+      "dialog_node": "node_3_1640231518115",
+      "previous_sibling": "node_9_1640163232793"
+    },
+    {
+      "type": "standard",
+      "title": "Ask eye color",
+      "parent": "node_4_1640163215999",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_eye_color",
+      "dialog_node": "node_3_1640247503693",
+      "previous_sibling": "node_4_1640247481364"
+    },
+    {
+      "type": "standard",
+      "title": "Ask questions",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "entities.size()==1 && $questions<2",
+      "dialog_node": "node_4_1640163215999",
+      "previous_sibling": "node_6_1640225206774"
+    },
+    {
+      "type": "standard",
+      "title": "Finish Asking",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "entities.size()==1 && $questions==2",
+      "dialog_node": "node_4_1640233066406",
+      "previous_sibling": "node_4_1640163215999"
+    },
+    {
+      "type": "standard",
+      "title": "Ask shirt color",
+      "parent": "node_4_1640163215999",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_shirt_color",
+      "dialog_node": "node_4_1640247481364",
+      "previous_sibling": "node_2_1640232572599"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, I am wearing <? $chosen[\"shirt_color\"] ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640247481364",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@color==($chosen[\"shirt_color\"])",
+      "dialog_node": "node_5_1640248062206"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No. I am not <? @name?>."
+              },
+              {
+                "text": "Sorry, you are wrong. I am not <? @name?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640233066406",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1640233066406"
+      },
+      "conditions": "#ask_name && @name!=$chosen[\"name\"]",
+      "dialog_node": "node_5_1640656189119",
+      "previous_sibling": "node_9_1640656037949"
+    },
+    {
+      "type": "standard",
+      "title": "Check entity number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your question may include several features. Please ask one feature at a time."
+              },
+              {
+                "text": "You asked in total: <? entities.size()?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "entities.size()>1",
+      "dialog_node": "node_6_1640225206774",
+      "previous_sibling": "node_10_1640155096779"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, you are right!"
+              },
+              {
+                "text": "Yes, <? @gender ?> is correct."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1640163232793",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@gender==($chosen[\"gender\"])",
+      "dialog_node": "node_6_1640231535565",
+      "previous_sibling": "response_5_1640655646157"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please ask an appropriate question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1640163215999",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1640655475531",
+      "previous_sibling": "node_2_1640247534054"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, I have <? @color?> eyes. But many peoples got <? @color?> eyes there."
+              },
+              {
+                "text": "Yeah! You have made a right guess. My eyes are <?@color?>."
+              },
+              {
+                "text": "Yes! My eyes are  <? @color ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1640247503693",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@color==($chosen[\"eye_color\"])",
+      "dialog_node": "node_7_1640248064169"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, <?@color?> is wrong."
+              },
+              {
+                "text": "No, my hair is not in <?@color?>. But I will not tell you what color it is."
+              },
+              {
+                "text": "No, <?@color?> color is not my style."
+              },
+              {
+                "text": "No, I don't think <?@color?> fits me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1640247534054",
+      "context": {
+        "q": ""
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1640654819327",
+      "previous_sibling": "node_8_1640248068585"
+    },
+    {
+      "type": "standard",
+      "title": "Greet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_8_1640156433153",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good guess, I have <? $chosen[\"glass\"] ?>."
+              },
+              {
+                "text": "Yeah! I am wearing <? $chosen[\"glass\"] ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1640231518115",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@glass==($chosen[\"glass\"])",
+      "dialog_node": "node_8_1640232576087"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, you are right!"
+              },
+              {
+                "text": "How do you know that? You are right! My hair is <?@color?>."
+              },
+              {
+                "text": "Yeah, you got it right! I got <??@color?> hair."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1640247534054",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "@color==($chosen[\"hair_color\"])",
+      "dialog_node": "node_8_1640248068585"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, I am not wearing <? @color ?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640247481364",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1640248769884",
+      "previous_sibling": "node_5_1640248062206"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1640163215999",
+      "context": {
+        "questions": "<?$questions +1?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_gender",
+      "dialog_node": "node_9_1640163232793"
+    },
+    {
+      "type": "standard",
+      "title": "Ask skin color",
+      "parent": "node_4_1640163215999",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ask_skin_color",
+      "dialog_node": "node_9_1640247507164",
+      "previous_sibling": "node_3_1640247503693"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, my eyes are not in <?@color?>."
+              },
+              {
+                "text": "No. I don't get <?@color?> eyes."
+              },
+              {
+                "text": "Sorry, wrong guess... I don't get <?@color?> eyes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1640247503693",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1640248890476",
+      "previous_sibling": "node_7_1640248064169"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No. I don't have <?@color?> skin."
+              },
+              {
+                "text": "Sorry, wrong guess... I don't have <?@color?> skin."
+              },
+              {
+                "text": "No. My skin is not in <?@color?>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1640247507164",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1640225206774"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1640249197838",
+      "previous_sibling": "node_10_1640248066361"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, you are right! You are so smart!"
+              },
+              {
+                "text": "Bingo! You are right. I am <? @name?>."
+              },
+              {
+                "text": "Perfect guess! I am <? @name?>. Happy to play with you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640233066406",
+      "conditions": "#ask_name && @name==$chosen[\"name\"]",
+      "dialog_node": "node_9_1640656037949"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is your last question. You have to make the final guess now."
+              },
+              {
+                "text": "This is your last chance to guess. Who am I?"
+              },
+              {
+                "text": "You have almost tried out all questions. I think you can make a good guess on who I am."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1640233066406",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1640656209464",
+      "previous_sibling": "node_5_1640656189119"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1640163232793",
+      "disabled": true,
+      "dialog_node": "response_5_1640655646157"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is your last question. You have to make the final guess now."
+              },
+              {
+                "text": "This is your last chance to guess. Who am I?"
+              },
+              {
+                "text": "You have almost tried out all questions. I think you can make a good guess on who I am."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1640656209464",
+      "disabled": true,
+      "dialog_node": "response_7_1640658594351"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1640155096779",
+      "variable": "$initChar",
+      "conditions": "true",
+      "dialog_node": "slot_7_1640157212419"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am here to talk with you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "imgUrl": {
+          "Neal": "https://drive.google.com/file/d/1f0pIMEBEPYlQy2horwaV81oQm8GCB9ZW/view?usp=sharing",
+          "Aaron": "https://drive.google.com/file/d/16rvQ4gxKvYdT07IHN1p6snhjqMnUrHp2/view?usp=sharing",
+          "Adele": "https://drive.google.com/file/d/1rxNomVy8ZGKTT3q4AY3EEMfiRX9nCN5C/view?usp=sharing",
+          "Donald": "https://drive.google.com/file/d/1psAK8I6abbQZiXD0J-wTY6S32R1_V6_r/view?usp=sharing",
+          "Hayley": "https://drive.google.com/file/d/1e-kISEoWTmWbrz37fCCEWdPNxw3dPt7C/view?usp=sharing",
+          "Martin": "https://drive.google.com/file/d/1ECgNz2wynap4nwzV1FgjxKxObOz2aulw/view?usp=sharing",
+          "Monroe": "https://drive.google.com/file/d/1iRPP9byPRAB7HV9nPreZtHmxPde-0-n0/view?usp=sharing",
+          "Michelle": "https://drive.google.com/file/d/1r1fukizgYiYcIP7DPoj1ePzXjAI2rCN-/view?usp=sharing"
+        },
+        "initNum": "<? (new java.util.Random().nextInt(8)) ?>",
+        "intArray": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "charArray": [
+          {
+            "name": "Martin",
+            "beard": "beard",
+            "glass": "glasses",
+            "gender": "male",
+            "eye_color": "black",
+            "hair_color": "black",
+            "skin_color": "black",
+            "shirt_color": "black"
+          },
+          {
+            "name": "Aaron",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "male",
+            "eye_color": "black",
+            "hair_color": "red",
+            "skin_color": "yellow",
+            "shirt_color": "green"
+          },
+          {
+            "name": "Neal",
+            "beard": "beard",
+            "glass": "glasses",
+            "gender": "male",
+            "hair_color": "black"
+          },
+          {
+            "name": "Donald",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "male",
+            "eye_color": "black",
+            "hair_color": "blonde",
+            "skin_color": "yellow",
+            "shirt_color": "blue"
+          },
+          {
+            "name": "Michelle",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "female",
+            "eye_color": "black",
+            "hair_color": "black",
+            "skin_color": "black",
+            "shirt_color": "red"
+          },
+          {
+            "name": "Adele",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "female",
+            "eye_color": "black",
+            "hair_color": "red",
+            "skin_color": "white",
+            "shirt_color": "green"
+          },
+          {
+            "name": "Hayley",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "female",
+            "eye_color": "black",
+            "hair_color": "black",
+            "skin_color": "white",
+            "shirt_color": "yellow"
+          },
+          {
+            "name": "Monroe",
+            "beard": "no beard",
+            "glass": "no glasses",
+            "gender": "female",
+            "eye_color": "black",
+            "hair_color": "blonde",
+            "skin_color": "yellow",
+            "shirt_color": "white"
+          }
+        ],
+        "questions": 0,
+        "startGame": false
+      },
+      "conditions": "conversation_start",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "guessing game",
+  "language": "en",
+  "description": ""
+}
